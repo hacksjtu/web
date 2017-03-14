@@ -25,4 +25,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 - [ ] mobile
 - [ ] compress image
 - [ ] frame for timeline
+- [ ] copy FAQ from previous websites
+- [ ] location and map
 - [ ] frame for sponsors
+- [ ] wechat qrcode at footer
