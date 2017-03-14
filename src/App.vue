@@ -1,0 +1,102 @@
+<template>
+  <div id="app">
+    <fixed-bg></fixed-bg>
+    <navbar-mobile v-if="isMobile"
+      :views=views
+      @slide="slideTo"
+    >
+    </navbar-mobile>
+
+    <banner class="js-scroll-anchor">
+      <navbar v-if="!isMobile" slot="navbar" 
+      :views=views
+      id="banner-nav"
+      @slide="slideTo"
+      ></navbar>
+      <!-- id used for 'boot' library -->
+    </banner>
+
+    <about-us class="js-scroll-anchor" :isMobile="isMobile"></about-us>
+    <entrance class="js-scroll-anchor"></entrance>
+    <!-- <schedule class="fp-section"></schedule> -->
+    <!-- <faq      class="fp-section"></faq> -->
+    <!-- <sponsors class="fp-section"></sponsors> -->
+
+  </div>
+</template>
+  
+<script>
+import boot from 'booting-nav'
+import scroll from 'scroll'
+
+import Hello from './components/Hello.vue'
+import FixedBg from './components/FixedBg.vue'
+import Banner from './components/Banner.vue'
+import Navbar from './components/Navbar.vue'
+import NavbarMobile from './components/NavbarMobile.vue'
+import Entrance from './components/Entrance.vue'
+import AboutUs from './components/AboutUs.vue'
+
+export default {
+  name: 'app',
+  components: {
+    Hello, FixedBg, Banner, Navbar, NavbarMobile, Entrance, AboutUs
+  },
+  data () {
+    return {
+      slide: null,
+      isMobile: false,
+      views: [
+        {
+          name: 'about-us',
+          title: '关于我们'
+        },
+        {
+          name: 'entrance',
+          title: '申请入口'
+        },
+        {
+          name: 'schedule',
+          title: '活动日程'
+        },
+        {
+          name: 'faq',
+          title: '常见问题'
+        },
+        {
+          name: 'sponsors',
+          title: '赞助单位'
+        }
+      ]
+    }
+  },
+  computed: {
+    scrollAnchors () {
+      return document.getElementsByClassName('js-scroll-anchor')
+    }
+  },
+  methods: {
+    slideTo (ind) {
+      scroll.top(document.body, this.scrollAnchors[ind + 1].offsetTop)
+    }
+  },
+  mounted () {
+    let isMobile = this.isMobile = window.innerWidth < 600
+    if (!isMobile) {
+      boot(document.getElementById('banner-nav'))
+    }
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  /*height: 100vh;*/
+  overflow-x: hidden;
+}
+</style>

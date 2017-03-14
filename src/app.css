@@ -1,0 +1,91 @@
+/*
+* @Author: gigaflower
+* @Date:   2017-03-04 10:27:32
+* @Last Modified by:   gigaflower
+* @Last Modified time: 2017-03-12 10:53:37
+*/
+
+.center-block {
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.prompt-aside {
+  display: inline-block;
+  height: 13px;
+  margin-right: 5px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.app-content {
+  position: relative;
+  min-height: 100vh;
+}
+
+.slide-bottom {
+  position: absolute;
+  bottom: 30px;
+  height: 15vh;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.vertical-center-wrap {
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cross-border {
+  position: relative;
+}
+.cross-border::after,
+.cross-border::before {
+  content: '';
+  display: block;
+  position: absolute;
+}
+.cross-border-lb::after {
+  bottom: -10px;
+  left: -40px;
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, .4) 10%, rgba(0, 0, 0, .4) 30%, transparent 80%);
+}
+.cross-border-lb::before {
+  top: 40px;
+  left: -10px;
+  height: 100%;
+  width: 5px;
+  background-image: linear-gradient(to top, transparent, rgba(0, 0, 0, .4) 30%, rgba(0, 0, 0, .4) 50%, transparent);
+}
+.cross-border-lt::after {
+  top: -10px;
+  left: -40px;
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, .4) 10%, rgba(0, 0, 0, .4) 30%, transparent 80%);
+}
+.cross-border-lt::before {
+  bottom: 40px;
+  left: -10px;
+  height: 100%;
+  width: 5px;
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .4) 20%, rgba(0, 0, 0, .4) 50%, transparent);
+}
+
+
+@media screen and (min-width: 600px) {
+  .pc-hidden { display: none; }
+}
+@media screen and (max-width: 600px) {
+  .mobile-hidden { display: none; }
+}
