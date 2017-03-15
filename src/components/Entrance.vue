@@ -2,12 +2,12 @@
   <div class="app-content vertical-center-wrap full-width">
     <div class="vertical-center">
       <!-- <caption-logo class="caption-logo full-width"></caption-logo> -->
-      <div v-html="message" class="message"></div>
+      <div v-html="$t('signUpPrompt')" class="message"></div>
     
       <prompt-down class="full-width"></prompt-down>
       <div class="entrance">
         <img class="prompt-aside" src="../assets/concentric-sq.png">
-        <span class="clickable">申请入口</span>
+        <span class="clickable">{{ $t('signUp')}}</span>
         <img class="prompt-aside" src="../assets/concentric-sq.png">
       </div>
       </div>
@@ -20,12 +20,7 @@ import CaptionLogo from './CaptionLogo.vue'
 
 export default {
   name: 'entrance',
-  components: { PromptDown, CaptionLogo },
-  data () {
-    return {
-      message: '欢迎各类学科学生的报名申请<br>请您填写下方申请入口中的正式申请表'
-    }
-  }
+  components: { PromptDown, CaptionLogo }
 }
 </script>
 

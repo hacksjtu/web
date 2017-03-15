@@ -12,8 +12,9 @@
       <slot name="navbar"></slot>
     </div>
 
-    <div class="prompt pc-hidden">
-      2017<br>上海交通大学<br>黑客马拉松
+    <div class="prompt pc-hidden" v-html="$t('banner-prompt')">
+      <!-- 2017<br>上海交通大学<br>黑客马拉松 -->
+      <!-- {{ text['banner-prompt'] }} -->
     </div>
 
     <div class="slide-bottom full-width">
@@ -28,6 +29,7 @@ import CaptionLogo from './CaptionLogo.vue'
 
 export default {
   name: 'banner',
+  props: ['text'],
   components: { PromptDown, CaptionLogo }
 }
 </script>

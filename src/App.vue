@@ -8,10 +8,10 @@
     </navbar-mobile>
 
     <banner class="js-scroll-anchor">
-      <navbar v-if="!isMobile" slot="navbar" 
-      :views=views
-      id="banner-nav"
+    
+      <navbar v-if="!isMobile" slot="navbar" id="banner-nav"
       @slide="slideTo"
+      @toggleLocale="toggleLocale"
       ></navbar>
       <!-- id used for 'boot' library -->
     </banner>
@@ -45,29 +45,7 @@ export default {
   data () {
     return {
       slide: null,
-      isMobile: false,
-      views: [
-        {
-          name: 'about-us',
-          title: '关于我们'
-        },
-        {
-          name: 'entrance',
-          title: '申请入口'
-        },
-        {
-          name: 'schedule',
-          title: '活动日程'
-        },
-        {
-          name: 'faq',
-          title: '常见问题'
-        },
-        {
-          name: 'sponsors',
-          title: '赞助单位'
-        }
-      ]
+      isMobile: false
     }
   },
   computed: {
@@ -78,6 +56,9 @@ export default {
   methods: {
     slideTo (ind) {
       scroll.top(document.body, this.scrollAnchors[ind + 1].offsetTop)
+    },
+    toggleLocale () {
+      this.$i18n.locale() === 'cn' ? this.$i18n.set('en') : this.$i18n.set('cn')
     }
   },
   mounted () {

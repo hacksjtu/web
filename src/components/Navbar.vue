@@ -1,9 +1,12 @@
 <template>
   <nav class="app-nav">
     <ul>
-      <li v-for="(item, ind) in views"> 
-        <img v-if="ind > 0" class="prompt-aside" src="../assets/concentric-sq.png">
-        <span class="clickable" @click="$emit('slide', ind)">{{ item.title }} </span>
+      <li>
+        <span class="clickable" @click="$emit('toggleLocale')"> 中 | En </span>
+      </li>
+      <li v-for="ind in 5"> 
+        <img class="prompt-aside" src="../assets/concentric-sq.png">
+        <span class="clickable" @click="$emit('slide', ind)">{{ $t('views' + ind) }} </span>
       </li>
     </ul>
   </nav>
@@ -12,9 +15,8 @@
 <script>
 export default {
   name: 'navbar',
-  props: ['views', 'fixed']
+  props: ['text']
 }
-
 </script>
 
 <style scoped>
@@ -25,6 +27,7 @@ export default {
   padding-top: 15px;
   padding-bottom: 10px;
   transition: background-color .2s;
+  -webkit-user-select: none;
 }
 .app-nav.booting-sub-nav-0 { 
   /* css for 'boot' library class */
