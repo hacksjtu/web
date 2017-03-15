@@ -26,6 +26,10 @@ export default {
     height: 15vh;
     margin-bottom: 10vh;
     position: relative;
+    transition: transform, .5s;
+  }
+  .prompt-down:hover {
+    transform: translateY(5px);
   }
 
   img {

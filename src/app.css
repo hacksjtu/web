@@ -2,7 +2,7 @@
 * @Author: gigaflower
 * @Date:   2017-03-04 10:27:32
 * @Last Modified by:   GigaFlower
-* @Last Modified time: 2017-03-15 19:52:48
+* @Last Modified time: 2017-03-15 19:59:44
 */
 
 .center-block {
@@ -102,4 +102,19 @@
   font-size: 30px;
   padding-bottom: 20px;
   padding-top: 15vh;
+}
+
+.windmill {
+  animation: windmill .8s linear infinite;
+}
+.windmill-ccw {
+  animation: windmill-ccw .8s linear infinite;
+}
+@keyframes windmill {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes windmill-ccw {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
 }

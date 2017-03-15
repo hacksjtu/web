@@ -74,6 +74,10 @@ export default {
     margin: 10px;
     border-radius: 10px;
     text-shadow: 1px 1px 0 #fff;
+    transition: box-shadow .3s;
+  }
+  .panel:hover {
+    box-shadow: 3px 3px 20px #666;
   }
   .panel-header {
     padding: 10px;

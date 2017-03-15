@@ -98,6 +98,10 @@ export default {
     
     color: #fff;
     font-weight: 900;
+    transition: transform .4s;
+  }
+  .bubble:hover {
+    transform: scale(1.1);
   }
   .bubble-right {
     display: inline-block;

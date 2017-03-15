@@ -2,11 +2,11 @@
   <nav class="app-nav">
     <ul>
       <li>
-        <span class="clickable" @click="$emit('toggleLocale')"> 中 | En </span>
+        <span class="item clickable" @click="$emit('toggleLocale')"> 中 | En </span>
       </li>
       <li v-for="ind in 5"> 
         <img class="prompt-aside" src="../assets/concentric-sq.png">
-        <span class="clickable" @click="$emit('slide', ind-1)">{{ $t('views')[ind-1] }} </span>
+        <span class="item clickable" @click="$emit('slide', ind-1)">{{ $t('views')[ind-1] }} </span>
       </li>
     </ul>
   </nav>
@@ -42,5 +42,12 @@ export default {
   display: inline-block;
   padding: 5px 10px;
   border-radius: 5px;
+}
+
+.item {
+  transition: text-shadow .2s;
+}
+.item:hover {
+  text-shadow: 0 0 10px #333; 
 }
 </style>
