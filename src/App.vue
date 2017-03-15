@@ -20,7 +20,7 @@
     <entrance class="js-scroll-anchor"></entrance>
     <timeline class="js-scroll-anchor" :scheduleStrings="$t('schedule')"></timeline>
     <faq class="js-scroll-anchor"></faq>
-    <map></map>
+    <app-map></app-map>
     <sponsors class="js-scroll-anchor"></sponsors>
     <app-footer></app-footer>
 
