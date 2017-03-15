@@ -2,7 +2,7 @@
 * @Author: gigaflower
 * @Date:   2017-03-04 10:27:32
 * @Last Modified by:   GigaFlower
-* @Last Modified time: 2017-03-15 17:17:15
+* @Last Modified time: 2017-03-15 18:39:37
 */
 
 .center-block {
@@ -91,7 +91,7 @@
 }
 
 .fixed-bg {
-    background-image: url('./assets/bg.webp');
+    background-image: url('./assets/bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

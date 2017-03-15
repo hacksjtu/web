@@ -55,10 +55,6 @@ export default {
 </script>
 
 <style scoped>
-  .fixed-bg {
-    background-image: url('../assets/bg.webp')
-  }
-
   .schedule-wrapper {
     display: flex;
     margin-right: 30px; 
