@@ -1,6 +1,6 @@
 <template>
   <div class="fixed-bg">
-    <div class="title">活动日程</div>
+    <div class="title"> {{ $t('views')[2] }} </div>
 
     <div class="schedule-wrapper">
     <div class="schedule-column" v-for="line in schedule">

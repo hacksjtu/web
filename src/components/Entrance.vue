@@ -5,9 +5,9 @@
     
       <prompt-down class="full-width" :white="true"></prompt-down>
       <div class="entrance">
-        <img class="prompt-aside" src="../assets/concentric-sq.png">
+        <img class="prompt-aside" src="../assets/concentric-sq-i.png">
         <span class="clickable">{{ $t('signUp') }}</span>
-        <img class="prompt-aside" src="../assets/concentric-sq.png">
+        <img class="prompt-aside" src="../assets/concentric-sq-i.png">
       </div>
       </div>
   </div>

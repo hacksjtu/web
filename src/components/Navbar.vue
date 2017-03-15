@@ -6,7 +6,7 @@
       </li>
       <li v-for="ind in 5"> 
         <img class="prompt-aside" src="../assets/concentric-sq.png">
-        <span class="clickable" @click="$emit('slide', ind)">{{ $t('views')[ind-1] }} </span>
+        <span class="clickable" @click="$emit('slide', ind-1)">{{ $t('views')[ind-1] }} </span>
       </li>
     </ul>
   </nav>

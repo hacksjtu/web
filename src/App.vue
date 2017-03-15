@@ -20,7 +20,9 @@
     <entrance class="js-scroll-anchor"></entrance>
     <timeline class="js-scroll-anchor" :scheduleStrings="$t('schedule')"></timeline>
     <faq class="js-scroll-anchor"></faq>
-    <!-- <sponsors class="fp-section"></sponsors> -->
+    <map></map>
+    <sponsors class="js-scroll-anchor"></sponsors>
+    <app-footer></app-footer>
 
   </div>
 </template>
@@ -30,7 +32,6 @@ import boot from 'booting-nav'
 import scroll from 'scroll'
 
 import Hello from './components/Hello.vue'
-// import FixedBg from './components/FixedBg.vue'
 import Banner from './components/Banner.vue'
 import Navbar from './components/Navbar.vue'
 import NavbarMobile from './components/NavbarMobile.vue'
@@ -38,11 +39,14 @@ import AboutUs from './components/AboutUs.vue'
 import Entrance from './components/Entrance.vue'
 import Timeline from './components/Timeline.vue'
 import Faq from './components/FAQ.vue'
+import AppMap from './components/AppMap.vue'
+import Sponsors from './components/Sponsors.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   name: 'app',
   components: {
-    Hello, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq
+    Hello, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq, AppMap, Sponsors, AppFooter
   },
   data () {
     return {

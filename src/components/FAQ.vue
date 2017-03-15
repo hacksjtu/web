@@ -1,6 +1,6 @@
 <template>
   <div class="fixed-bg">
-    <div class="title">FAQ</div>
+    <div class="title">  {{ $t('views')[3] }} </div>
     <div class="faq-wrapper">
       <div class="column" v-for="(questions, group) in [faq1, faq2]">
         <div class="panel" v-for="(q, ind) in questions">
@@ -69,14 +69,15 @@ export default {
     width: 45%;
   }
   .panel {
-    border: 3px solid #ddd;
+    border: 3px solid rgba(200, 200, 200, 0.3);
+    box-shadow: 3px 3px 6px #777;
     margin: 10px;
     border-radius: 10px;
+    text-shadow: 1px 1px 0 #fff;
   }
   .panel-header {
     padding: 10px;
     font-size: 20px;
-    text-shadow: 1px 1px 0 #fff;
     border-bottom: 1px solid #ddd;
   }
   .panel-body {
@@ -85,8 +86,9 @@ export default {
     transition: all .5s ease-in-out
   }
   .panel-body p {
-    padding-left: 10px; 
-    padding-right: 10px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    line-height: 25px;
   }
   .panel-body.expanded {
     max-height: 300px;

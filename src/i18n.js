@@ -2,7 +2,7 @@
 * @Author: GigaFlower
 * @Date:   2017-03-15 07:44:09
 * @Last Modified by:   GigaFlower
-* @Last Modified time: 2017-03-15 14:31:12
+* @Last Modified time: 2017-03-15 19:56:51
 */
 
 'use strict'
@@ -43,6 +43,7 @@ export default {
       'span-prepare',
       '---',
       'event-lg|5/5|比赛开始',
+      'span-rest',
       'event-rest|09:00|选手入场',
       'event-rest|09:30|升国旗，唱国歌',
       'span-rest',
@@ -61,7 +62,8 @@ export default {
       'span-crazy',
       'event-crazy|2:00|Patchouli go!',
       'span-crazy',
-      'event-crazy|3:00|Patchouli go!'
+      'event-crazy|3:00|Patchouli go!',
+      'span-crazy'
     ],
 
     // FAQ
@@ -89,7 +91,10 @@ export default {
       '我们将为比赛学生提供充足的吃、喝、网络及电源供应，以及休息和娱乐区域。你需要携带身份证、学生证、便携式电脑、换洗衣服及洗漱用具。当然，我们会为外校学生提供休息区以及睡觉必备的毯子，但为避免供应紧张，我们建议学生准备睡袋或毯子。',
       '参加HACK×FDU的学生不但有机会获得大赛设置的精美奖项和高科技礼品，并有可能同时获得企业的青睐，得到企业特设的奖品，甚至获得实习、全职offer。一切皆有可能，我们等你的参与哦！',
       '请发送邮件至ask@grapetech.org。'
-    ]
+    ],
+
+    // Footer
+    rightStatement: 'HACK×FDU All rights reserved<br>葡萄科技技术（深圳）有限公司'
   },
 
   en: {
@@ -125,10 +130,35 @@ export default {
     signUpPrompt: 'vim is the best ide',
 
     schedule: [
-      'event-lg|9/24（Saturday）',
+      'event-lg|Now',
+      'span-prepare',
+      'event-prepare|4/1|Blah',
+      'span-prepare',
+      'event-prepare|5/1|Blah',
+      'span-prepare',
+      '---',
+      'event-lg|5/5|ゲームスダート',
+      'span-rest',
+      'event-rest|09:00|No one will read this',
+      'event-rest|09:30|Let\'s party!',
+      'span-rest',
+      'event-working|11:00|coding',
       'span-working',
-      'event-sm|10:00|Start',
-      'event-sm|11:00|Do nothing'
+      'event-working|12:00|coding',
+      'span-working',
+      'event-working|3:00|coding',
+      'span-working',
+      'event-working|22:00|game',
+      'span-crazy||stay up',
+      '---',
+      'event-lg|5/6（??）',
+      'span-crazy',
+      'event-crazy|1:00|Patchouli go!',
+      'span-crazy',
+      'event-crazy|2:00|Patchouli go!',
+      'span-crazy',
+      'event-crazy|3:00|Patchouli go!',
+      'span-crazy'
     ],
 
     faqTitles: [
@@ -155,7 +185,9 @@ export default {
       'All you need to bring is your ID card, student ID, laptop, change of clothes and toiletries. Of course, we will provide you meals, drinks, Wifi and power as well as rest and entertainment areas. We would provide out-of-town students blankets for sleeping, but to prevent overwhelming demand, we suggest you to prepare a sleeping bag or blanket for yourself.',
       'Accepted students not only have chance to win some great prizes and technology gadgets, but also receive awards from sponsor companies or even internship/full-time job offers. Nothing is impossible here, come and join us!!!',
       'If you have any other questions, please email us at ask@grapetech.org.'
-    ]
+    ],
+
+    rightStatement: 'HACK×FDU All rights reserved<br>Grape Tech (Shenzhen) LLC'
   }
 
 }
