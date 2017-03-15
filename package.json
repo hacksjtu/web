@@ -10,6 +10,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "booting-nav": "^1.0.1",
     "bootstrap": "^3.3.7",
     "do-slide": "^1.1.4",

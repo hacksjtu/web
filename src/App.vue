@@ -19,7 +19,7 @@
     <about-us class="js-scroll-anchor" :isMobile="isMobile"></about-us>
     <entrance class="js-scroll-anchor"></entrance>
     <timeline class="js-scroll-anchor" :scheduleStrings="$t('schedule')"></timeline>
-    <!-- <faq      class="fp-section"></faq> -->
+    <faq class="js-scroll-anchor"></faq>
     <!-- <sponsors class="fp-section"></sponsors> -->
 
   </div>
@@ -37,11 +37,12 @@ import NavbarMobile from './components/NavbarMobile.vue'
 import AboutUs from './components/AboutUs.vue'
 import Entrance from './components/Entrance.vue'
 import Timeline from './components/Timeline.vue'
+import Faq from './components/FAQ.vue'
 
 export default {
   name: 'app',
   components: {
-    Hello, FixedBg, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline
+    Hello, FixedBg, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq
   },
   data () {
     return {

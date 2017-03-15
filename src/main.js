@@ -33,3 +33,4 @@ new Vue({
 
 import 'normalize.css/normalize.css'
 import './app.css'
+import 'babel-polyfill'

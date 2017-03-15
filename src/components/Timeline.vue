@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="title">活动日程</div>
     <div v-for="event in schedule">
         <div v-if="event[0] === 'event-lg'"
           class="event-lg"
@@ -40,6 +41,11 @@ export default {
 </script>
 
 <style scoped>
+  .title {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
   .time-span {
     height: 70px;
     width: 7px;
