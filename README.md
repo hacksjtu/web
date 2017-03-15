@@ -21,11 +21,11 @@ npm run build --report
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## TODO
-- [ ] translation
+- [x] translation
 - [ ] mobile
-- [ ] compress image
-- [ ] frame for timeline
-- [ ] copy FAQ from previous websites
-- [ ] location and map
-- [ ] frame for sponsors
-- [ ] wechat qrcode at footer
+- [x] compress image
+- [x] frame for timeline
+- [x] copy FAQ from previous websites
+- [x] location and map
+- [x] frame for sponsors
+- [x] wechat qrcode at footer
