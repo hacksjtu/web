@@ -2,7 +2,7 @@
 * @Author: GigaFlower
 * @Date:   2017-03-15 07:44:09
 * @Last Modified by:   GigaFlower
-* @Last Modified time: 2017-03-15 09:18:32
+* @Last Modified time: 2017-03-15 10:31:25
 */
 
 'use strict'
@@ -13,11 +13,7 @@ export default {
     mobileTitle: '2017<br>上海交通大学<br>黑客马拉松',
 
     // Navbar
-    views1: '关于我们',
-    views2: '申请入口',
-    views3: '活动日程',
-    views4: '常见问题',
-    views5: '赞助单位',
+    views: ['关于我们', '申请入口', '活动日程', '常见问题', '赞助单位'],
 
     // About us
     aboutus: `黑客马拉松 Hackathon)作为一项学生科技创新实践的活动，已经逐年扩张到世界各地学校当中。 
@@ -35,19 +31,44 @@ export default {
 
     // Sign up
     signUp: '申请入口',
-    signUpPrompt: '欢迎各类学科学生的报名申请<br>请您填写下方申请入口中的正式申请表'
+    signUpPrompt: '欢迎各类学科学生的报名申请<br>请您填写下方申请入口中的正式申请表',
+
+    // Timeline
+    // [
+    //  [
+    //    // the first time line
+    //    {
+    //     type: event-lg|event-sm|span-working|span-rest
+    //     time: a string denoting time
+    //     message:  a describing string
+    //    },{
+    //     ...
+    //    }...
+    //  ],[
+    //     ...
+    //  ]
+    // ]
+    schedule: [
+      'event-lg|9/24（周六）',
+      'span-working',
+      'event-sm|10:00|比赛开始',
+      'event-sm|11:00|无所事事'
+    ]
   },
   en: {
     mobileTitle: '2017<br>HACK<br>SJTU',
-    views1: 'About Us',
-    views2: 'Sign Up',
-    views3: 'Schedule',
-    views4: 'FAQ',
-    views5: 'Sponsors',
+    views: ['About Us', 'Sign Up', 'Schedule', 'FAQ', 'Sponsors'],
 
     aboutus: `js is the best language`,
     signUp: 'ゲームスダート',
-    signUpPrompt: 'vim is the best ide'
+    signUpPrompt: 'vim is the best ide',
+
+    schedule: [
+      'event-lg|9/24（Saturday）',
+      'span-working',
+      'event-sm|10:00|Start',
+      'event-sm|11:00|Do nothing'
+    ]
   }
 }
 

@@ -7,7 +7,7 @@
       <prompt-down class="full-width"></prompt-down>
       <div class="entrance">
         <img class="prompt-aside" src="../assets/concentric-sq.png">
-        <span class="clickable">{{ $t('signUp')}}</span>
+        <span class="clickable">{{ $t('signUp') }}</span>
         <img class="prompt-aside" src="../assets/concentric-sq.png">
       </div>
       </div>
