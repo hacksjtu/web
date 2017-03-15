@@ -2,7 +2,7 @@
 * @Author: GigaFlower
 * @Date:   2017-03-15 07:44:09
 * @Last Modified by:   GigaFlower
-* @Last Modified time: 2017-03-15 12:51:17
+* @Last Modified time: 2017-03-15 14:31:12
 */
 
 'use strict'
@@ -35,10 +35,33 @@ export default {
 
     // Timeline
     schedule: [
-      'event-lg|9/24（周六）',
+      'event-lg|Now',
+      'span-prepare',
+      'event-prepare|4/1|准备报名',
+      'span-prepare',
+      'event-prepare|5/1|筹备完成',
+      'span-prepare',
+      '---',
+      'event-lg|5/5|比赛开始',
+      'event-rest|09:00|选手入场',
+      'event-rest|09:30|升国旗，唱国歌',
+      'span-rest',
+      'event-working|11:00|就是干',
       'span-working',
-      'event-sm|10:00|比赛开始',
-      'event-sm|11:00|无所事事'
+      'event-working|12:00|吃中饭',
+      'span-working',
+      'event-working|3:00|就是干',
+      'span-working',
+      'event-working|22:00|game',
+      'span-crazy||少年通宵中',
+      '---',
+      'event-lg|5/6（周八）',
+      'span-crazy',
+      'event-crazy|1:00|Patchouli go!',
+      'span-crazy',
+      'event-crazy|2:00|Patchouli go!',
+      'span-crazy',
+      'event-crazy|3:00|Patchouli go!'
     ],
 
     // FAQ
