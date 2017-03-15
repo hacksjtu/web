@@ -2,7 +2,7 @@
 * @Author: gigaflower
 * @Date:   2017-03-04 10:27:32
 * @Last Modified by:   GigaFlower
-* @Last Modified time: 2017-03-15 12:54:39
+* @Last Modified time: 2017-03-15 17:17:15
 */
 
 .center-block {
@@ -88,4 +88,18 @@
 }
 @media screen and (max-width: 600px) {
   .mobile-hidden { display: none; }
+}
+
+.fixed-bg {
+    background-image: url('./assets/bg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding-top: 15vh;
 }

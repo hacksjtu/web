@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <fixed-bg></fixed-bg>
+    <!-- <fixed-bg></fixed-bg> -->
     <navbar-mobile v-if="isMobile"
       :views=views
       @slide="slideTo"
@@ -30,7 +30,7 @@ import boot from 'booting-nav'
 import scroll from 'scroll'
 
 import Hello from './components/Hello.vue'
-import FixedBg from './components/FixedBg.vue'
+// import FixedBg from './components/FixedBg.vue'
 import Banner from './components/Banner.vue'
 import Navbar from './components/Navbar.vue'
 import NavbarMobile from './components/NavbarMobile.vue'
@@ -42,7 +42,7 @@ import Faq from './components/FAQ.vue'
 export default {
   name: 'app',
   components: {
-    Hello, FixedBg, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq
+    Hello, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq
   },
   data () {
     return {

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fixed-bg">
     <div class="title">活动日程</div>
 
     <div class="schedule-wrapper">
@@ -48,7 +48,6 @@ export default {
         _ind = ind + 1
       }
       ret.push(Array.from(s.slice(_ind), str => str.split('|')))
-      console.log(ret)
       return ret
     }
   }
@@ -56,17 +55,21 @@ export default {
 </script>
 
 <style scoped>
+  .fixed-bg {
+    background-image: url('../assets/bg.webp')
+  }
+
   .schedule-wrapper {
     display: flex;
     margin-right: 30px; 
   }
   .schedule-column {
     flex-grow: 1;
-    /*display: inline-block;*/
   }
+
   .title {
     font-size: 30px;
-    margin-top: 20px;
+    padding-top: 70px;
     margin-bottom: 70px;
   }
   .time-span {

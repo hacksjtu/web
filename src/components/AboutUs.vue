@@ -1,6 +1,5 @@
 <template>
-  <div class="app-content">
-
+  <div class="app-content fixed-bg">
     <div class="title">关于我们</div>
     <div class="vertical-center-wrap article-wrap">
       <div class="vertical-center">
@@ -26,6 +25,9 @@ export default {
 </script>
 
 <style scoped>
+  .fixed-bg {
+    background-image: url('../assets/bg.png');
+  }
   .title {
     font-size: 30px;
     margin-bottom: 20px;

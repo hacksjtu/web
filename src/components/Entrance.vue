@@ -1,10 +1,9 @@
 <template>
-  <div class="app-content vertical-center-wrap full-width">
+  <div class="app-content fixed-bg vertical-center-wrap full-width">
     <div class="vertical-center">
-      <!-- <caption-logo class="caption-logo full-width"></caption-logo> -->
       <div v-html="$t('signUpPrompt')" class="message"></div>
     
-      <prompt-down class="full-width"></prompt-down>
+      <prompt-down class="full-width" :white="true"></prompt-down>
       <div class="entrance">
         <img class="prompt-aside" src="../assets/concentric-sq.png">
         <span class="clickable">{{ $t('signUp') }}</span>
@@ -25,6 +24,12 @@ export default {
 </script>
 
 <style scoped>
+  .fixed-bg {
+    background-image: url('../assets/bg-i.png');
+    background-color: #000;
+    color: #fff;
+  }
+
   .entrance {
     font-size: 30px;
   }

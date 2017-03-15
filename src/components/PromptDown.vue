@@ -1,15 +1,23 @@
 <template>
   <div class="prompt-down">
-    <div class="floating-shadow" >
-      <img src="../assets/diamond.png">
+    <div class="floating-shadow" :class="{ white }" >
+      <img v-if="white" src="../assets/diamond-i.png">
+      <img v-else src="../assets/diamond.png">
     </div>
-    <img src="../assets/prompt-v2.png">
+    <img v-if="white" src="../assets/diamonds-i.png">
+    <img v-else src="../assets/diamonds.png">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'prompt-down'
+  name: 'prompt-down',
+  props: {
+    white: {
+      type: Boolean,
+      default: false
+    }
+  }
 }
 </script>
 
@@ -31,9 +39,12 @@ export default {
     width: 100%;
     top: -10px;
     opacity: 0.2;
-    z-index: 0;
+    z-index: 10;
     transition: transform, .5s;
     animation: jump .7s ease-in-out alternate infinite;
+  }
+  .floating-shadow.white {
+    opacity: 0.5;
   }
 
   .floating-shadow:hover {

@@ -1,5 +1,5 @@
 <template>
-  <div class="app-content">
+  <div class="app-content fixed-bg">
     <div class="caption">
       <img class="left mobile-hidden" src="../assets/prompt-h.png">
       <img class="right mobile-hidden" src="../assets/prompt-h.png">
@@ -35,6 +35,9 @@ export default {
 </script>
 
 <style scoped>
+  .fixed-bg {
+    background-image: url('../assets/bg.png');
+  }
   .caption {
     width: 100%;
     margin-bottom: 50px; 
