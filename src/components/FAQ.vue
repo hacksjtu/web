@@ -60,13 +60,9 @@ export default {
 
 <style scoped>
   .faq-wrapper {
-    display: flex;
-    justify-content: center;
     margin-left: 30px; 
     margin-right: 30px;
-  }
-  .column {
-    width: 45%;
+    padding-bottom: 80px;
   }
   .panel {
     border: 3px solid rgba(200, 200, 200, 0.3);
@@ -95,7 +91,17 @@ export default {
     line-height: 25px;
   }
   .panel-body.expanded {
-    max-height: 300px;
+    max-height: 500px;
   }
 
+  @media screen and (min-width: 600px) {
+    .faq-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    .column { width: 45%; }
+  }
+  @media screen and (max-width: 600px) {
+    .column { width: 100%; }
+  }
 </style>

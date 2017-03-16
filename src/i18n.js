@@ -2,7 +2,7 @@
 * @Author: GigaFlower
 * @Date:   2017-03-15 07:44:09
 * @Last Modified by:   GigaFlower
-* @Last Modified time: 2017-03-15 21:02:17
+* @Last Modified time: 2017-03-16 09:06:10
 */
 
 'use strict'
@@ -99,7 +99,7 @@ export default {
   },
 
   en: {
-    mobileTitle: '2017<br>HACK<br>SJTU',
+    mobileTitle: '2017<br>SJTU HACKATHON',
     views: ['About Us', 'Sign Up', 'Schedule', 'FAQ', 'Sponsors'],
 
     aboutus: `Hackathons have grown to become a global student movement.

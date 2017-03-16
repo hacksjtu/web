@@ -1,5 +1,6 @@
 <template>
   <nav class="app-nav">
+    <span @click="$emit('toggleLocale')"> 中 | En </span>
     <div class="nav-collapse clickable" 
       @click="showNav = !showNav"
     >
@@ -10,9 +11,9 @@
 
     <transition name="fade">
       <ul v-if="showNav">
-        <li v-for="(item, ind) in views"> 
+        <li v-for="ind in 5"> 
           <img class="prompt-aside" src="../assets/concentric-sq.png">
-          <span class="clickable" @click="showNav = !showNav;$emit('slide', ind)">{{ item.title }}</span>
+          <span class="clickable" @click="showNav = !showNav;$emit('slide', ind-1)">{{ $t('views')[ind-1] }}</span>
         </li>
       </ul>
     </transition>
@@ -31,7 +32,6 @@ export default {
   methods: {
     toggleNav () {
       this.showNav = !this.showNav
-      console.log(this.showNav)
     }
   }
 }
@@ -54,8 +54,10 @@ export default {
 }
 .nav-collapse {
   margin-right: 30px;
+  margin-left: 30px;
   margin-top: 2px;
   display: inline-block;
+  vertical-align: bottom;
 }
 .bar {
   width: 25px;
@@ -81,6 +83,7 @@ ul {
 li {
   padding: 10px 10px 10px 20px;
   border-radius: 5px;
+  text-align: left;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s

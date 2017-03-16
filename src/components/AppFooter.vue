@@ -20,17 +20,27 @@ export default {
 </script>
 
 <style scoped>
-.wrapper {
-  display: flex;
-}
 .column {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
-  height: 300px;
 }
 img {
   height: 200px;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    display: flex;
+  }
+  .column {
+    width: 50%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    height: 200px;
+  }
 }
 </style>

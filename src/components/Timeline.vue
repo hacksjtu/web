@@ -55,14 +55,6 @@ export default {
 </script>
 
 <style scoped>
-  .schedule-wrapper {
-    display: flex;
-    margin-right: 30px; 
-  }
-  .schedule-column {
-    flex-grow: 1;
-  }
-
   .title {
     font-size: 30px;
     padding-top: 70px;
@@ -71,7 +63,6 @@ export default {
   .time-span {
     height: 30px;
     width: 3px;
-    margin-left: 190px; 
     margin-top: -3px;
   }
 
@@ -91,7 +82,6 @@ export default {
     line-height: 60px;
     text-align: center;
     
-    margin-left: 150px;
     padding: 10px;
 
     border-radius: 50%;
@@ -111,6 +101,30 @@ export default {
     font-weight: 900;
   }
 
+  /* horizontal in pc, vertical in mobile */
+  @media screen and (min-width: 600px) {
+    .schedule-wrapper {
+      display: flex;
+      margin-right: 30px; 
+    }
+    .schedule-column {
+      flex-grow: 1;
+    }
+    .time-span {
+      margin-left: 190px;
+    }
+    .bubble {
+      margin-left: 150px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .time-span {
+      margin-left: 110px;
+    }
+    .bubble {
+      margin-left: 70px;
+    }
+  }
 
   .time-span.prepare { background-color: #9ae; }
   .time-span.rest { background-color: #9d9; }

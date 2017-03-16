@@ -2,16 +2,16 @@
   <div id="app">
     <!-- <fixed-bg></fixed-bg> -->
     <navbar-mobile v-if="isMobile"
-      :views=views
       @slide="slideTo"
+      @toggleLocale="toggleLocale"
     >
     </navbar-mobile>
 
     <banner class="js-scroll-anchor">
     
       <navbar v-if="!isMobile" slot="navbar" id="banner-nav"
-      @slide="slideTo"
-      @toggleLocale="toggleLocale"
+        @slide="slideTo"
+        @toggleLocale="toggleLocale"
       ></navbar>
       <!-- id used for 'boot' library -->
     </banner>
@@ -20,7 +20,7 @@
     <entrance class="js-scroll-anchor"></entrance>
     <timeline class="js-scroll-anchor" :scheduleStrings="$t('schedule')"></timeline>
     <faq class="js-scroll-anchor"></faq>
-    <app-map></app-map>
+    <app-map :isMobile="isMobile"></app-map>
     <sponsors class="js-scroll-anchor"></sponsors>
     <app-footer></app-footer>
 

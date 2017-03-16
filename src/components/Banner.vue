@@ -12,9 +12,7 @@
       <slot name="navbar"></slot>
     </div>
 
-    <div class="prompt pc-hidden" v-html="$t('banner-prompt')">
-      <!-- 2017<br>上海交通大学<br>黑客马拉松 -->
-      <!-- {{ text['banner-prompt'] }} -->
+    <div class="prompt pc-hidden" v-html="$t('mobileTitle')">
     </div>
 
     <div class="slide-bottom full-width">
@@ -35,12 +33,9 @@ export default {
 </script>
 
 <style scoped>
-  .fixed-bg {
-    background-image: url('../assets/bg.png');
-  }
   .caption {
     width: 100%;
-    margin-bottom: 50px; 
+    margin-bottom: 30px; 
     position: relative;
   }
 
@@ -74,8 +69,8 @@ export default {
   }
 
   .prompt {
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 50px;
     text-shadow: 2px 2px #fff;
   }
 

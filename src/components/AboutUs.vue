@@ -30,6 +30,7 @@ export default {
     max-width: 1000px;
     line-height: 25px;
     margin: 10px auto 0;
+    padding-bottom: 100px;
     height: 50vh;
   }
   .caption-logo {
