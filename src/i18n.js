@@ -107,7 +107,7 @@ export default {
       '我们将鼓励大家自由组队。组队人数需保证至少 2 人，最多 5 人。我们会为选中的学生提供线上赛前组队的机会，但如果你不能在赛前找到团队成员，我们也将会在开幕式后提供组队以及头脑风暴的机会。',
       '我们将为比赛学生提供充足的吃、喝、网络及电源供应，以及休息和娱乐区域。你需要携带身份证、学生证、便携式电脑、换洗衣服及洗漱用具。当然，我们会为外校学生提供休息区以及睡觉必备的毯子，但为避免供应紧张，我们建议学生准备睡袋或毯子。',
       '参加 HACK×SJTU 的学生不但有机会获得大赛设置的精美奖项和高科技礼品，并有可能同时获得企业的青睐，得到企业特设的奖品，甚至获得实习、全职 offer。一切皆有可能，我们等你的参与哦！',
-      '请发送邮件至 ask@grapetech.org。'
+      '请发送邮件至 service@hackx.org。'
     ],
 
     address: '闵行区东川路800号<br>上海交通大学微电子楼',
@@ -219,7 +219,7 @@ export default {
       'HACK×SJTU encourages students to build team by themselves. Please make sure each team allows two to five students together. We will provide selected applicants opportunity to team up online, but if you cannot find a team before the hackathon, we will also offer you a chance for team building and brain storming after the kick-off ceremony.',
       'All you need to bring is your ID card, student ID, laptop, change of clothes and toiletries. Of course, we will provide you meals, drinks, Wifi and power as well as rest and entertainment areas. We would provide out-of-town students blankets for sleeping, but to prevent overwhelming demand, we suggest you to prepare a sleeping bag or blanket for yourself.',
       'Accepted students not only have chance to win some great prizes and technology gadgets, but also receive awards from sponsor companies or even internship/full-time job offers. Nothing is impossible here, come and join us!!!',
-      'If you have any other questions, please email us at ask@grapetech.org.'
+      'If you have any other questions, please email us at service@hackx.org.'
     ],
     address: '闵行区东川路800号<br>上海交通大学微电子楼',
 
