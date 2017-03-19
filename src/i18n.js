@@ -16,7 +16,7 @@ export default {
     views: ['关于我们', '申请入口', '活动日程', '常见问题', '赞助单位'],
 
     // About us
-    aboutus: `黑客马拉松 Hackathon)作为一项学生科技创新实践的活动，已经逐年扩张到世界各地学校当中。 
+    aboutus: `黑客马拉松 Hackathon)作为一项学生科技创新实践的活动，已经逐年扩张到世界各地学校当中。
     此项活动将通过借助各家企业开源的API Application Programming Interface)和SDK (SoftwareDevelopment Kit)，
     以此为学生们提供在短时间内开发软件和硬件的竞赛平台，
     最终来促进学生们充分地利用所学的科技开发技能去完成设计插件或搭建各类应用项目的雏形。<br>
@@ -30,39 +30,56 @@ export default {
     学生开发者们将能够更好地实现创新创造，并在实践中找到自己心仪的合作伙伴。`,
 
     // Sign up
-    signUp: '申请入口',
+    signUp: '即将开启',
     signUpPrompt: '欢迎各类学科学生的报名申请<br>请您填写下方申请入口中的正式申请表',
 
     // Timeline
     schedule: [
-      'event-lg|Now',
+      'event-lg|5/5|星期五',
       'span-prepare',
-      'event-prepare|4/1|准备报名',
+      'event-prepare|17:30|活动签到与物品安置',
       'span-prepare',
-      'event-prepare|5/1|筹备完成',
+      'event-prepare|19:00|HACK×SJTU启动仪式',
+      'span-prepare',
+      'event-prepare|19:50|赛会规则介绍',
+      'span-prepare',
+      'event-prepare|20:00|各家企业奖项和技术介绍环节',
+      'span-prepare',
+      'event-prepare|21:00|HACK×FDU正式开始',
+      'span-prepare',
+      'event-prepare|21:00|自由组队环节',
+      'span-prepare',
+      'event-prepare|23:00|互动游戏阶段',
       'span-prepare',
       '---',
-      'event-lg|5/5|比赛开始',
+      'event-lg|5/6|星期六',
       'span-rest',
-      'event-rest|09:00|选手入场',
-      'event-rest|09:30|升国旗，唱国歌',
+      'event-rest|7:30|早餐',
       'span-rest',
-      'event-working|11:00|就是干',
-      'span-working',
-      'event-working|12:00|吃中饭',
-      'span-working',
-      'event-working|3:00|就是干',
-      'span-working',
-      'event-working|22:00|game',
-      'span-crazy||少年通宵中',
+      'event-rest|8:30|互动游戏阶段',
+      'span-rest',
+      'event-rest|12:00|Lunch',
+      'span-rest',
+      'event-rest|18:00|Dinner',
+      'span-rest',
+      'event-rest|23:00|互动游戏阶段',
+      'span-rest',
       '---',
-      'event-lg|5/6（周八）',
+      'event-lg|5/7|星期日',
       'span-crazy',
-      'event-crazy|1:00|Patchouli go!',
+      'event-crazy|7:30|早餐',
       'span-crazy',
-      'event-crazy|2:00|Patchouli go!',
+      'event-crazy|8:30|互动游戏阶段',
       'span-crazy',
-      'event-crazy|3:00|Patchouli go!',
+      'event-crazy|11:00|项目提交deadline',
+      'span-crazy',
+      'event-crazy|12:00|Lunch',
+      'span-crazy',
+      'event-crazy|12:30|项目展示准备、午休',
+      'span-crazy',
+      'event-crazy|15:20|学生项目展示',
+      'span-crazy',
+      'event-crazy|16:30|闭幕式与颁奖典礼',
       'span-crazy'
     ],
 
@@ -113,52 +130,69 @@ export default {
     Our event will offer various top open-source companies’ APIs and SDKs
     for student developers to hack on. In the end, students could quickly
     self-learn and apply those tools to develop different kinds of application and product prototype.
-    
+
     During the course of  HACK×SJTU , students will learn how to deliver a product
     under 36 hours by leveraging each team member’s skillsets and covering various
     functions within a team. In addition to utilizing best resources provided by sponsor companies,
     student developers could communicate frequently with each sponsor’s engineering group to hone in
     their development skills.
-    
+
     Student developers could also take this chance to connect with each sponsor’s developers and
     recruiters, in order to find their right fit for future career.  HACK×SJTU  will also invite top-notch
     venture capital investors to be part of the judging committee. Students could potentially benefit from
-    those offerings by taking their projects to the next level. We hope, by the end of  HACK×SJTU , students 
+    those offerings by taking their projects to the next level. We hope, by the end of  HACK×SJTU , students
     will not only receive many amazing prizes, but mostly importantly have fun, make great friends
     and turn the craziest idea into reality!`,
 
-    signUp: 'ゲームスダート',
-    signUpPrompt: 'vim is the best ide',
+    signUp: 'Comming Soon',
+    signUpPrompt: 'Application Process',
 
     schedule: [
-      'event-lg|Now',
+      'event-lg|5/5|Friday',
       'span-prepare',
-      'event-prepare|4/1|Blah',
+      'event-prepare|17:30|Event Check-in and Setup',
       'span-prepare',
-      'event-prepare|5/1|Blah',
+      'event-prepare|19:00|HACK×SJTU Kickoff Ceremony',
+      'span-prepare',
+      'event-prepare|19:50|The Rule of HACK×FDU',
+      'span-prepare',
+      'event-prepare|20:00|Rewards from Sponsors',
+      'span-prepare',
+      'event-prepare|21:00|Start Hacking',
+      'span-prepare',
+      'event-prepare|21:00|Form Your Team',
+      'span-prepare',
+      'event-prepare|23:00|Gaming Time',
       'span-prepare',
       '---',
-      'event-lg|5/5|ゲームスダート',
+      'event-lg|5/6|Saturday',
       'span-rest',
-      'event-rest|09:00|No one will read this',
-      'event-rest|09:30|Let\'s party!',
+      'event-rest|7:30|Breakfast',
       'span-rest',
-      'event-working|11:00|coding',
-      'span-working',
-      'event-working|12:00|coding',
-      'span-working',
-      'event-working|3:00|coding',
-      'span-working',
-      'event-working|22:00|game',
-      'span-crazy||stay up',
+      'event-rest|8:30|Gaming Time',
+      'span-rest',
+      'event-rest|12:00|Lunch',
+      'span-rest',
+      'event-rest|18:00|Dinner',
+      'span-rest',
+      'event-rest|23:00|Gaming Time',
+      'span-rest',
       '---',
-      'event-lg|5/6（??）',
+      'event-lg|5/7|Sunday',
       'span-crazy',
-      'event-crazy|1:00|Patchouli go!',
+      'event-crazy|7:30|Breakfast',
       'span-crazy',
-      'event-crazy|2:00|Patchouli go!',
+      'event-crazy|8:30|Gaming Time',
       'span-crazy',
-      'event-crazy|3:00|Patchouli go!',
+      'event-crazy|11:00|Project Submission Deadline',
+      'span-crazy',
+      'event-crazy|12:00|Lunch',
+      'span-crazy',
+      'event-crazy|12:30|Exhibition Prep and Break',
+      'span-crazy',
+      'event-crazy|15:20|Project Exhibition and Judging',
+      'span-crazy',
+      'event-crazy|16:30|Closing and Awarding Ceremony',
       'span-crazy'
     ],
 

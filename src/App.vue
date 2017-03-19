@@ -8,7 +8,7 @@
     </navbar-mobile>
 
     <banner class="js-scroll-anchor">
-    
+
       <navbar v-if="!isMobile" slot="navbar" id="banner-nav"
         @slide="slideTo"
         @toggleLocale="toggleLocale"
@@ -21,12 +21,12 @@
     <timeline class="js-scroll-anchor" :scheduleStrings="$t('schedule')"></timeline>
     <faq class="js-scroll-anchor"></faq>
     <app-map :isMobile="isMobile"></app-map>
-    <sponsors class="js-scroll-anchor"></sponsors>
+    <!--<sponsors class="js-scroll-anchor"></sponsors>-->
     <app-footer></app-footer>
 
   </div>
 </template>
-  
+
 <script>
 import boot from 'booting-nav'
 import scroll from 'scroll'
