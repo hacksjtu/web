@@ -2,11 +2,11 @@
   <div class="app-content fixed-bg vertical-center-wrap full-width">
     <div class="vertical-center">
       <div v-html="$t('signUpPrompt')" class="message"></div>
-    
+
       <prompt-down class="full-width" :white="true"></prompt-down>
       <div class="entrance">
         <img class="prompt-aside windmill" src="../assets/concentric-sq-i.png">
-        <span class="clickable">{{ $t('signUp') }}</span>
+        <a href="https://www.hackx.org/competitions/hackxsjtu2017/register" target="_blank" style="color: white;text-decoration: none;">{{ $t('signUp') }}</a>
         <img class="prompt-aside windmill-ccw" src="../assets/concentric-sq-i.png">
       </div>
       </div>
@@ -36,7 +36,7 @@ export default {
   @media screen and (min-width: 600px) {
     .message {
       font-size: 30px;
-      margin-bottom: 10vh; 
+      margin-bottom: 10vh;
     }
   }
   @media screen and (max-width: 600px) {

@@ -2,14 +2,14 @@
   <div class="app-content fixed-bg">
     <div class="title"> {{ $t('views')[0] }} </div>
     <div class="vertical-center-wrap article-wrap">
-      <div class="vertical-center">
-        <div v-html="$t('aboutus')" class="cross-border article" 
+      <div style="text-align:justify;">
+        <div v-html="$t('aboutus')" class="cross-border article"
           :class="{ 'cross-border-lb': !isMobile, 'cross-border-lt': isMobile }"
         >
         </div>
       </div>
     </div>
-    
+
     <caption-logo class="caption-logo slide-bottom full-width mobile-hidden"></caption-logo>
   </div>
 </template>
