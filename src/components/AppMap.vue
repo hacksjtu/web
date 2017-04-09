@@ -5,7 +5,7 @@
         <p class="prompt" v-html="$t('address')"></p>
       </div>
 
-      <iframe width='560' height='400' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/2KCql_0732CwW'></iframe>
+      <iframe width='560' height='400' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://f.amap.com/2KCql_0732CwW'></iframe>
 
     </div>
 
