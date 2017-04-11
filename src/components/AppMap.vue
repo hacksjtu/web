@@ -5,7 +5,7 @@
         <p class="prompt" v-html="$t('address')"></p>
       </div>
 
-      <iframe width='560' height='400' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://f.amap.com/2KCql_0732CwW'></iframe>
+      <iframe width='560' height='400' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://lbs.amap.com/console/show/map/?0_560_440_121.436911_31.025756&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%20%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%20%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83&=&=&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83'></iframe>
 
     </div>
 
