@@ -102,7 +102,7 @@ export default {
       '请发送邮件至 service@hackx.org。'
     ],
 
-    address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼机房',
+    address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼',
     // Footer
     rightStatement: 'HACK×SJTU All rights reserved'
   },
@@ -193,7 +193,7 @@ export default {
       'Accepted students not only have chance to win some great prizes and technology gadgets, but also receive awards from sponsor companies or even internship/full-time job offers. Nothing is impossible here, come and join us!!!',
       'If you have any other questions, please email us at service@hackx.org.'
     ],
-    address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼机房',
+    address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼',
 
     rightStatement: 'HACK×SJTU All rights reserved'
   }
