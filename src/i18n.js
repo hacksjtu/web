@@ -160,9 +160,9 @@ export default {
       'span-crazy',
       'event-crazy|12:00|Lunch',
       'span-crazy',
-      'event-crazy|12:30|Exhibition Prep and Break',
+      'event-crazy|12:30|Exhibition Prep',
       'span-crazy',
-      'event-crazy|15:20|Project Exhibition & Judging',
+      'event-crazy|15:20|Exhibition',
       'span-crazy',
       'event-crazy|16:30|Awarding Ceremony',
       'span-crazy'
