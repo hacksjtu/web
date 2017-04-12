@@ -92,17 +92,17 @@ export default {
     faqAnswers: [
       ' HACK×SJTU  是由上海交通大学和葡萄科技技术（深圳）有限公司组织筹办的 Hackathon。这场 Hackathon 旨在鼓励学生“学以致用”和“团队合作”，学习创造各类软硬件、应用、游戏、插件等等。我们将鼓励开源技术的使用和推广，并手把手地教学生如何使用各家企业开源 API/SDKs。',
       '筛选进入的学生不用支付任何费用参加比赛，我们将负责参赛学生的吃、喝及休息。另外，我们也将会为上海市外的学生提供交通补助。快来报名加入我们吧！',
-      '比赛场地将设置在上海市闵行区东川路 800 号。',
+      '比赛场地将设置在上海市闵行区东川路800号上海交通大学电子信息与电气工程学院4号楼。',
       ' HACK×SJTU 将面向全国各类高校，学生申请者提交申请后，我们将从所有申请人当中优选出全国上百名学生来上海交通大学参加 HACK×SJTU 活动。我们坚信“创新是人文与技术的结合体，缺一不可。”我们鼓励各类主修的学生参与，无论你是学社会科学类，还是学基础理、工科类的学生，我们都将欢迎你的申请加入！',
       '除了个人基础的申请信息，我们会要求每位申请人提交个人简历（最好是 PDF/doc 格式），以便组委会的筛选工作。如果你有其他的个人信息页的介绍，也可以选择提交（包括 GitHub、LinkedIn、WeChat 等等）。',
       '参加  HACK×SJTU  是你学习编程的最佳机会！没有人天生就会编程，我们鼓励初学者参与，并将为初学者配相关的技术指导，带你成为老司机！当然，我们也建议申请者，可以提前通过如计蒜客、Code Academy、Udacity、Coursera 等方式自学哦！',
       '我们将鼓励大家自由组队。组队人数需保证至少 2 人，最多 5 人。我们会为选中的学生提供线上赛前组队的机会，但如果你不能在赛前找到团队成员，我们也将会在开幕式后提供组队以及头脑风暴的机会。',
-      '我们将为比赛学生提供充足的吃、喝、网络及电源供应，以及休息和娱乐区域。你需要携带身份证、学生证、便携式电脑、换洗衣服及洗漱用具。当然，我们会为外校学生提供休息区以及睡觉必备的毯子，但为避免供应紧张，我们建议学生准备睡袋或毯子。',
+      '我们将为比赛学生提供充足的吃、喝、网络及电源供应，以及休息和娱乐区域。你需要携带身份证、学生证、便携式电脑、换洗衣服及洗漱用具。',
       '参加 HACK×SJTU 的学生不但有机会获得大赛设置的精美奖项和高科技礼品，并有可能同时获得企业的青睐，得到企业特设的奖品，甚至获得实习、全职 offer。一切皆有可能，我们等你的参与哦！',
       '请发送邮件至 service@hackx.org。'
     ],
 
-    address: '闵行区东川路800号<br>上海交通大学闵行校区网络信息中心',
+    address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼机房',
     // Footer
     rightStatement: 'HACK×SJTU All rights reserved'
   },
@@ -189,11 +189,11 @@ export default {
       'Besides your basic personal information, we will look forward to seeing your resume (PDF/Word format is preferred). If you have any other kind of information such as your Github username, LinkedIn profile, WeChat username, you are welcome to submit as well!',
       'HACK×SJTU is the perfect time and place to learn! No one is born to code perfectly. We will encourage starters to join us and learn from the technical masters within their development fields. Of course, we would also suggest you to take advantage of some great learning tools such as Jisuanke, Code Academy, Udacity, Coursera, etc.',
       'HACK×SJTU encourages students to build team by themselves. Please make sure each team allows two to five students together. We will provide selected applicants opportunity to team up online, but if you cannot find a team before the hackathon, we will also offer you a chance for team building and brain storming after the kick-off ceremony.',
-      'All you need to bring is your ID card, student ID, laptop, change of clothes and toiletries. Of course, we will provide you meals, drinks, Wifi and power as well as rest and entertainment areas. We would provide out-of-town students blankets for sleeping, but to prevent overwhelming demand, we suggest you to prepare a sleeping bag or blanket for yourself.',
+      'All you need to bring is your ID card, student ID, laptop, change of clothes and toiletries. Of course, we will provide you meals, drinks, Wifi and power as well as rest and entertainment areas.',
       'Accepted students not only have chance to win some great prizes and technology gadgets, but also receive awards from sponsor companies or even internship/full-time job offers. Nothing is impossible here, come and join us!!!',
       'If you have any other questions, please email us at service@hackx.org.'
     ],
-    address: '闵行区东川路800号<br>上海交通大学闵行校区网络信息中心',
+    address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼机房',
 
     rightStatement: 'HACK×SJTU All rights reserved'
   }
