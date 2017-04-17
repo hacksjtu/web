@@ -21,7 +21,7 @@
     <timeline class="js-scroll-anchor" :scheduleStrings="$t('schedule')"></timeline>
     <faq class="js-scroll-anchor"></faq>
     <app-map :isMobile="isMobile"></app-map>
-    <app-footer></app-footer>
+    <app-footer class="js-scroll-anchor"></app-footer>
 
   </div>
 </template>
