@@ -13,9 +13,7 @@
     </div>
 
     <h1 v-html="$t('organizer')"></h1>
-    <a href="" target="_blank">
-      <img src="../assets/grapetech.png">
-    </a>
+    <img src="../assets/grapetech.png">
 
     <h1 v-html="$t('sponsor')"></h1>
 
