@@ -201,7 +201,7 @@ export default {
 
     rightStatement: 'HACK×SJTU All rights reserved',
     host: 'HOSTS',
-    hosts: ['The Committee of Youth League at Shanghai Jiaotong University', 'School of Computer Science at Shanghai Jiaotong University', 'School of Computer Science at Shanghai Jiaotong University’s Student Union'],
+    hosts: ['The Committee of Youth League at Shanghai Jiaotong University', 'School of Electronic, Information and Electrical Engineering(SEIEE) at Shanghai Jiaotong University', 'SEIEE Student Union at Shanghai Jiaotong University'],
     organizer: 'EVENT ORGANIZER',
     sponsor: 'SPONSORS'
   }
