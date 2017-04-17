@@ -1,8 +1,8 @@
 /*
  * @Author: GigaFlower
  * @Date:   2017-03-15 07:44:09
- * @Last Modified by:   GigaFlower
- * @Last Modified time: 2017-03-16 09:06:10
+ * @Last Modified by:   zhouben
+ * @Last Modified time: 2017-04-17 20:58:20
  */
 
 'use strict'
@@ -104,7 +104,11 @@ export default {
 
     address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼',
     // Footer
-    rightStatement: 'HACK×SJTU All rights reserved'
+    rightStatement: 'HACK×SJTU All rights reserved',
+    host: '主办方',
+    hosts: ['共青团上海交通大学委员会', '上海交通大学电子信息与电气工程学院', '上海交通大学电子信息与电气工程学院学生会'],
+    organizer: '策划协办方',
+    sponsor: '合作赞助方'
   },
 
   en: {
@@ -195,7 +199,11 @@ export default {
     ],
     address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼',
 
-    rightStatement: 'HACK×SJTU All rights reserved'
+    rightStatement: 'HACK×SJTU All rights reserved',
+    host: 'HOSTS',
+    hosts: ['The Committee of Youth League at Shanghai Jiaotong University', 'School of Computer Science at Shanghai Jiaotong University', 'School of Computer Science at Shanghai Jiaotong University’s Student Union'],
+    organizer: 'EVENT ORGANIZER',
+    sponsor: 'SPONSORS'
   }
 
 }

@@ -21,7 +21,6 @@
     <timeline class="js-scroll-anchor" :scheduleStrings="$t('schedule')"></timeline>
     <faq class="js-scroll-anchor"></faq>
     <app-map :isMobile="isMobile"></app-map>
-    <!--<sponsors class="js-scroll-anchor"></sponsors>-->
     <app-footer></app-footer>
 
   </div>
@@ -40,13 +39,12 @@ import Entrance from './components/Entrance.vue'
 import Timeline from './components/Timeline.vue'
 import Faq from './components/FAQ.vue'
 import AppMap from './components/AppMap.vue'
-import Sponsors from './components/Sponsors.vue'
 import AppFooter from './components/AppFooter.vue'
 
 export default {
   name: 'app',
   components: {
-    Hello, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq, AppMap, Sponsors, AppFooter
+    Hello, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq, AppMap, AppFooter
   },
   data () {
     return {
