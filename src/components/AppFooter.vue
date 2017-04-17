@@ -19,12 +19,14 @@
 
     <h1 v-html="$t('sponsor')"></h1>
 
-    <div class="img-flow-horiz">
-      <div v-for="(href, name) in sponsors">
-        <!-- img used in v-for should be put directly in /static/img dir -->
-        <a :href="href" target="_blank">
-          <img :src="'/static/img/brands/' + name + '.png'">
-        </a>
+    <div>
+      <div class="img-flow-horiz" v-for="sp in sponsors">
+        <div v-for="(href, name) in sp">
+          <!-- img used in v-for should be put directly in /static/img dir -->
+          <a :href="href" target="_blank">
+            <img :src="'/static/img/brands/' + name + '.png'">
+          </a>
+        </div>
       </div>
     </div>
 
@@ -48,20 +50,22 @@ export default {
   name: 'app-footer',
   data () {
     return {
-      sponsors: {
+      sponsors: [{
         'ibm': 'http://www.ibm.com',
         'ibm-bluemix': 'http://bluemix.net',
         'nvidia': 'http://www.nvidia.com',
-        'yingyuliulishuo': 'https://www.liulishuo.com',
+        'yingyuliulishuo': 'https://www.liulishuo.com'
+      }, {
         'microsoft': 'https://www.microsoft.com',
         'ubuntu': 'http://cn.ubuntu.com',
         'sensetime': 'http://www.sensetime.com',
-        'qingcloud': 'https://www.qingcloud.com',
+        'qingcloud': 'https://www.qingcloud.com'
+      }, {
         'github': 'https://github.com',
         'ruff': 'https://ruff.io',
         'jisuanke': 'http://www.jisuanke.com',
         'innospring': 'http://www.innospring.net'
-      }
+      }]
     }
   }
 }
@@ -84,7 +88,7 @@ img {
   align-items: center;
 }
 .img-flow-horiz img {
-  max-width: 250px;
+  max-width: 200px;
 }
 .img-flow-horiz p {
   max-width: 200px;
