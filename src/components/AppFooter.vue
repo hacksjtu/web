@@ -79,7 +79,7 @@ export default {
       }],
       support: [{
         'innospring': 'http://www.innospring.net',
-        'zhenfund': 'http://www.innospring.net'
+        'zhenfund': 'http://www.zhenfund.com'
       }]
     }
   }
