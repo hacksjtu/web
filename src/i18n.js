@@ -108,7 +108,8 @@ export default {
     host: '主办方',
     hosts: ['共青团上海交通大学委员会', '上海交通大学电子信息与电气工程学院', '上海交通大学电子信息与电气工程学院学生会'],
     organizer: '策划协办方',
-    sponsor: '合作赞助方'
+    sponsor: '合作赞助方',
+    supportCompany: '活动支持方'
   },
 
   en: {
@@ -203,7 +204,8 @@ export default {
     host: 'HOSTS',
     hosts: ['The Committee of Youth League at Shanghai Jiaotong University', 'School of Electronic, Information and Electrical Engineering(SEIEE) at Shanghai Jiaotong University', 'SEIEE Student Union at Shanghai Jiaotong University'],
     organizer: 'EVENT ORGANIZER',
-    sponsor: 'SPONSORS'
+    sponsor: 'SPONSORS',
+    supportCompany: 'SUPPORT'
   }
 
 }

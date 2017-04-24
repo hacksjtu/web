@@ -14,11 +14,25 @@
 
     <h1 v-html="$t('organizer')"></h1>
     <img src="../assets/grapetech.png">
+    <img src="../assets/hackx.png">
 
     <h1 v-html="$t('sponsor')"></h1>
 
     <div>
-      <div class="img-flow-horiz" v-for="sp in sponsors">
+      <div class="img-flow-horiz img-sp" v-for="sp in sponsors">
+        <div v-for="(href, name) in sp">
+          <!-- img used in v-for should be put directly in /static/img dir -->
+          <a :href="href" target="_blank">
+            <img :src="'/static/img/brands/' + name + '.png'">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <h1 v-html="$t('supportCompany')"></h1>
+
+    <div>
+      <div class="img-flow-horiz" v-for="sp in support">
         <div v-for="(href, name) in sp">
           <!-- img used in v-for should be put directly in /static/img dir -->
           <a :href="href" target="_blank">
@@ -61,8 +75,11 @@ export default {
       }, {
         'github': 'https://github.com',
         'ruff': 'https://ruff.io',
-        'jisuanke': 'http://www.jisuanke.com',
-        'innospring': 'http://www.innospring.net'
+        'jisuanke': 'http://www.jisuanke.com'
+      }],
+      support: [{
+        'innospring': 'http://www.innospring.net',
+        'zhenfund': 'http://www.innospring.net'
       }]
     }
   }
