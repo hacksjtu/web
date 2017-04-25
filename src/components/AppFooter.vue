@@ -69,11 +69,12 @@ export default {
         'yingyuliulishuo': 'https://www.liulishuo.com'
       }, {
         'microsoft': 'https://www.microsoft.com',
-        'ubuntu': 'http://cn.ubuntu.com',
+        'ctrip': 'http://www.ctrip.com/',
         'sensetime': 'http://www.sensetime.com',
         'qingcloud': 'https://www.qingcloud.com'
       }, {
         'github': 'https://github.com',
+        'ubuntu': 'http://cn.ubuntu.com',
         'ruff': 'https://ruff.io',
         'jisuanke': 'http://www.jisuanke.com'
       }],
