@@ -1,14 +1,14 @@
 <template>
   <div class="app-content fixed-bg">
     <div class="caption">
-      <img class="left mobile-hidden" src="../assets/prompt-h.png">
-      <img class="right mobile-hidden" src="../assets/prompt-h.png">
+<!--      <img class="left mobile-hidden" src="../assets/prompt-h.png">-->
+<!--      <img class="right mobile-hidden" src="../assets/prompt-h.png">-->
       <caption-logo class="caption-logo center-block"></caption-logo>
     </div>
 
     <div class="navbar center-block mobile-hidden">
-      <img class="left" src="../assets/prompt-h.png">
-      <img class="right" src="../assets/prompt-h.png">
+<!--      <img class="left" src="../assets/prompt-h.png">-->
+<!--      <img class="right" src="../assets/prompt-h.png">-->
       <slot name="navbar"></slot>
     </div>
 
@@ -35,7 +35,7 @@ export default {
 <style scoped>
   .caption {
     width: 100%;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     position: relative;
   }
 

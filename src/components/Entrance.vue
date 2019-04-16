@@ -1,15 +1,17 @@
 <template>
-  <div class="app-content fixed-bg vertical-center-wrap full-width">
-    <div class="vertical-center">
-      <div v-html="$t('signUpPrompt')" class="message"></div>
+  <div class="app-content fixed-bg">
+<!--    <div class="vertical-center">-->
+    <div class="message">
+      <div v-html="$t('signUpPrompt')"></div>
 
-      <prompt-down class="full-width" :white="true"></prompt-down>
-      <div class="entrance">
-        <img class="prompt-aside windmill" src="../assets/concentric-sq-i.png">
-        <a href="https://www.hackx.org/competitions/hackxsjtu2019" style="color: white;text-decoration: none;">{{ $t('signUp') }}</a>
-        <img class="prompt-aside windmill-ccw" src="../assets/concentric-sq-i.png">
-      </div>
-      </div>
+<!--      <prompt-down class="full-width" :white="true"></prompt-down>-->
+<!--      <div class="entrance">-->
+<!--        <img class="prompt-aside windmill" src="../assets/concentric-sq-i.png">-->
+        <a href="https://www.hackx.org/competitions/hackxsjtu2019" style="color: black;text-decoration: none;">{{ $t('signUp') }}</a>
+    </div>
+<!--        <img class="prompt-aside windmill-ccw" src="../assets/concentric-sq-i.png">-->
+<!--      </div>-->
+<!--      </div>-->
   </div>
 </template>
 
@@ -24,11 +26,11 @@ export default {
 </script>
 
 <style scoped>
-  .fixed-bg {
-    background-image: url('../assets/bg-i.png');
-    background-color: #000;
-    color: #fff;
-  }
+  /*.fixed-bg {*/
+  /*  background-image: url('../assets/bg-i.png');*/
+  /*  background-color: #000;*/
+  /*  color: #fff;*/
+  /*}*/
   .entrance {
     font-size: 30px;
   }
@@ -36,13 +38,16 @@ export default {
   @media screen and (min-width: 600px) {
     .message {
       font-size: 30px;
-      margin-bottom: 10vh;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
     }
   }
   @media screen and (max-width: 600px) {
     .message {
+      margin: auto auto;
       font-size: 20px;
-      margin-bottom: 10vh;
     }
   }
 </style>

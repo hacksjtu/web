@@ -1,5 +1,5 @@
 <template>
-  <div class="app-content fixed-bg">
+  <div class="app-content">
     <div class="title"> {{ $t('views')[0] }} </div>
     <div class="vertical-center-wrap article-wrap">
       <div style="text-align:justify;">
@@ -10,7 +10,7 @@
       </div>
     </div>
 
-    <caption-logo class="caption-logo slide-bottom full-width mobile-hidden"></caption-logo>
+<!--    <caption-logo class="caption-logo slide-bottom full-width mobile-hidden"></caption-logo>-->
   </div>
 </template>
 

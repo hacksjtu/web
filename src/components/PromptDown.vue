@@ -1,12 +1,12 @@
 <template>
-  <div class="prompt-down">
-    <div class="floating-shadow" :class="{ white }" >
-      <img v-if="white" src="../assets/diamond-i.png">
-      <img v-else src="../assets/diamond.png">
-    </div>
-    <img v-if="white" src="../assets/diamonds-i.png">
-    <img v-else src="../assets/diamonds.png">
-  </div>
+<!--  <div class="prompt-down">-->
+<!--    <div class="floating-shadow" :class="{ white }" >-->
+<!--      <img v-if="white" src="../assets/diamond-i.png">-->
+<!--      <img v-else src="../assets/diamond.png">-->
+<!--    </div>-->
+<!--    <img v-if="white" src="../assets/diamonds-i.png">-->
+<!--    <img v-else src="../assets/diamonds.png">-->
+<!--  </div>-->
 </template>
 
 <script>

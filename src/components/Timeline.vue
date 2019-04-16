@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed-bg">
+  <div>
     <div class="title"> {{ $t('views')[2] }} </div>
 
     <div class="schedule-wrapper">
@@ -72,7 +72,7 @@ export default {
   }
   .event-sm {
     text-align: left;
-    margin-bottom: 3px; 
+    margin-bottom: 3px;
   }
   .bubble {
     font-size: 20px;
@@ -81,11 +81,11 @@ export default {
     width: 60px;
     line-height: 60px;
     text-align: center;
-    
+
     padding: 10px;
 
     border-radius: 50%;
-    
+
     color: #fff;
     font-weight: 900;
     transition: transform .4s;
@@ -105,7 +105,7 @@ export default {
   @media screen and (min-width: 600px) {
     .schedule-wrapper {
       display: flex;
-      margin-right: 30px; 
+      margin-right: 30px;
     }
     .schedule-column {
       flex-grow: 1;
