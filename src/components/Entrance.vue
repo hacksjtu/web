@@ -6,7 +6,7 @@
       <prompt-down class="full-width" :white="true"></prompt-down>
       <div class="entrance">
         <img class="prompt-aside windmill" src="../assets/concentric-sq-i.png">
-        <a href="https://www.hackx.org/competitions/hackxsjtu2017/register" target="_blank" style="color: white;text-decoration: none;">{{ $t('signUp') }}</a>
+        <a href="https://www.hackx.org/competitions/hackxsjtu2019" style="color: white;text-decoration: none;">{{ $t('signUp') }}</a>
         <img class="prompt-aside windmill-ccw" src="../assets/concentric-sq-i.png">
       </div>
       </div>

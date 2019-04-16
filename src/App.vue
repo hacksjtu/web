@@ -30,7 +30,6 @@
 import boot from 'booting-nav'
 import scroll from 'scroll'
 
-import Hello from './components/Hello.vue'
 import Banner from './components/Banner.vue'
 import Navbar from './components/Navbar.vue'
 import NavbarMobile from './components/NavbarMobile.vue'
@@ -44,7 +43,7 @@ import AppFooter from './components/AppFooter.vue'
 export default {
   name: 'app',
   components: {
-    Hello, Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq, AppMap, AppFooter
+    Banner, Navbar, NavbarMobile, Entrance, AboutUs, Timeline, Faq, AppMap, AppFooter
   },
   data () {
     return {

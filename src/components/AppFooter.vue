@@ -27,6 +27,8 @@
           </a>
         </div>
       </div>
+      <div v-html="$t('explain')">
+      </div>
     </div>
 
     <h1 v-html="$t('supportCompany')"></h1>

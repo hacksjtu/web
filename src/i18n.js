@@ -16,18 +16,18 @@ export default {
     views: ['关于我们', '申请入口', '活动日程', '常见问题', '赞助单位'],
 
     // About us
-    aboutus: `<p>HACK×SJTU作为一项学生科技创新实践的活动，今年将在上海交通大学正式启动。此届活动将在全国筛选最优秀的学生开发者，筛选通过的学生将自由组成2-5名的学生团队，在36小时的比拼中，最终一决高下！</p>
+    aboutus: `<p>HACK×SJTU作为一项学生科技创新实践的活动，今年将在上海交通大学正式启动第三届的比赛。此届比赛将继续在全国筛选最优秀的学生开发者，筛选通过的学生将自由组成2-5名的学生团队，在36小时的比拼中，最终一决高下！</p>
               <p>此项活动将通过借助各家企业开源的API（Application Programming Interface）和SDK（Software Development Kit），以此为学生们提供在短时间内开发软件和硬件的竞赛平台，最终来促进学生们充分地利用所学的科技开发技能去完成设计插件或搭建各类应用项目的雏形。</p>
               <p>在比赛过程中，每个学生将学习如何与团队协作并形成优势互补去完善项目的设计和落地成型。另外，学生们在项目开发中也可利用高科技公司提供的API、SDK及硬件设施，与公司内部的技术开发人进行深度沟通并协作完成插件以及产品再造。</p>
               <p>学生也可借此机会对接企业开发者和招聘团队，为以后技术开发及落地或者就业寻找合适的机会。学生们也可连接受邀的创投公司，将开发的项目雏形通过登台公众演示以及赛后的技术完善来获得潜在的初创投资支持，以此来完成产品或服务的商业转化。最终，学生们不但通过此项比赛收获各类奖品，而更为重要的是，学生开发者们将能够更好地实现创新、创造，并在实践中找到自己心仪的合作伙伴。</p>`,
 
     // Sign up
     signUp: '点击报名',
-    signUpPrompt: '<p>比赛时间: 2017-05-05 ~ 05-07</p><p>报名时间: 2017-04-10 ~ 04-29</p><p>请您填写下方申请入口中的正式申请表</p>',
+    signUpPrompt: '<p>比赛时间: 2019-05-17 周五 ~ 05-19 周日</p><p>报名时间: 2019-04-17 ~ 05-12</p><p>请您填写下方申请入口中的正式申请表</p>',
 
     // Timeline
     schedule: [
-      'event-lg|5/5|星期五',
+      'event-lg|5/17|星期五',
       'span-prepare',
       'event-prepare|17:30|活动签到与物品安置',
       'span-prepare',
@@ -46,7 +46,7 @@ export default {
       'event-prepare|21:00|项目开发',
       'span-prepare',
       '---',
-      'event-lg|5/6|星期六',
+      'event-lg|5/18|星期六',
       'span-rest',
       'event-rest|7:30|早餐',
       'span-rest',
@@ -61,7 +61,7 @@ export default {
       'event-rest|21:00|项目开发',
       'span-rest',
       '---',
-      'event-lg|5/7|星期日',
+      'event-lg|5/19|星期日',
       'span-crazy',
       'event-crazy|7:30|早餐',
       'span-crazy',
@@ -110,24 +110,25 @@ export default {
     host: '主办方',
     hosts: ['共青团上海交通大学委员会', '上海交通大学电子信息与电气工程学院', '上海交通大学电子信息与电气工程学院学生会'],
     organizer: '策划协办方',
-    sponsor: '合作赞助方',
-    supportCompany: '活动支持方'
+    sponsor: '往届合作赞助方',
+    supportCompany: '活动支持方',
+    explain: '本届活动合作方将在近期发布'
   },
 
   en: {
     mobileTitle: '2017<br>SJTU HACKATHON',
     views: ['About Us', 'Sign Up', 'Schedule', 'FAQ', 'Sponsors'],
 
-    aboutus: `<p>Hackathons have grown to become a global student movement. Now Shanghai Jiaotong University will also join this movement by creating HACK×SJTU this semester. HACK×SJTU will select the best student developers across China and invite most splendid sponsor companies across China and Silicon Valley to join our hackathon.</p>
+    aboutus: `<p>Hackathons have grown to become a global student movement. Now Shanghai Jiaotong University will launch its third HACK×SJTU this semester. HACK×SJTU will select the best student developers across China and invite most splendid sponsor companies across China and Silicon Valley to join our hackathon.</p>
               <p>HACK×SJTU will last for 36 hours, and allow teams of up to five students to compete in the hackathon. Our event will offer various top open-source companies’ APIs and SDKs for student developers to hack on. In the end, students could quickly self-learn and apply those tools to develop different kinds of application and product prototype.</p>
               <p>During the course of HACK×SJTU, students will learn how to deliver a product under 36 hours by leveraging each team member’s skillsets and covering various functions within a team. In addition to utilizing best resources provided by sponsor companies, student developers could communicate frequently with each sponsor’s engineering group to hone in their development skills.</p>
               <p>Student developers could also take this chance to connect with each sponsor’s developers and recruiters, in order to find their right fit for future career. HACK×SJTU will also invite top-notch venture capital investors to be part of the judging committee. Students could potentially benefit from those offerings by taking their projects to the next level. We hope, by the end of HACK×SJTU, students will not only receive many amazing prizes, but mostly importantly have fun, make great friends and turn the craziest idea into reality!</p>`,
 
     signUp: 'Sign Up Now',
-    signUpPrompt: '<p>比赛时间: 2017-05-05 ~ 05-07</p><p>报名时间: 2017-04-10 ~ 04-29</p><p>请您填写下方申请入口中的正式申请表</p>',
+    signUpPrompt: '<p>比赛时间: 2017-05-17 ~ 05-19</p><p>报名时间: 2017-04-17 ~ 05-12</p><p>请您填写下方申请入口中的正式申请表</p>',
 
     schedule: [
-      'event-lg|5/5|Friday',
+      'event-lg|5/17|Friday',
       'span-prepare',
       'event-prepare|17:30|Check-in',
       'span-prepare',
@@ -146,7 +147,7 @@ export default {
       'event-prepare|21:00|Hacking Time',
       'span-prepare',
       '---',
-      'event-lg|5/6|Saturday',
+      'event-lg|5/18|Saturday',
       'span-rest',
       'event-rest|7:30|Breakfast',
       'span-rest',
@@ -161,7 +162,7 @@ export default {
       'event-rest|21:00|Hacking Time',
       'span-rest',
       '---',
-      'event-lg|5/7|Sunday',
+      'event-lg|5/19|Sunday',
       'span-crazy',
       'event-crazy|7:30|Breakfast',
       'span-crazy',
@@ -209,7 +210,8 @@ export default {
     hosts: ['The Committee of Youth League at Shanghai Jiaotong University', 'School of Electronic, Information and Electrical Engineering(SEIEE) at Shanghai Jiaotong University', 'SEIEE Student Union at Shanghai Jiaotong University'],
     organizer: 'EVENT ORGANIZER',
     sponsor: 'SPONSORS',
-    supportCompany: 'SUPPORT'
+    supportCompany: 'SUPPORT',
+    explain: 'This year’s HACKxSJTU Sponsors will release soon!'
   }
 
 }
