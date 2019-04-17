@@ -23,7 +23,8 @@ export default {
 
     // Sign up
     signUp: '点击报名',
-    signUpPrompt: '<p>比赛时间: 2019-05-17 周五 ~ 05-19 周日</p><p>报名时间: 2019-04-17 ~ 05-12</p><p>请您填写下方申请入口中的正式申请表</p>',
+    signTime: '2019-05-17 周五 ~ 05-19 周日',
+    signUpPrompt: '<p>比赛时间</p><p> 2019-05-17 周五 ~ 05-19 周日</p><br/><p>报名时间</p><p> 2019-04-17 ~ 05-12</p><br/><p>请您填写下方申请入口中的正式申请表</p>',
 
     // Timeline
     schedule: [
@@ -105,10 +106,11 @@ export default {
     ],
 
     address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼',
+    simpleAddress: '<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼',
     // Footer
     rightStatement: 'HACK×SJTU All rights reserved',
     host: '主办方',
-    hosts: ['共青团上海交通大学委员会', '上海交通大学电子信息与电气工程学院', '上海交通大学电子信息与电气工程学院学生会'],
+    hosts: ['共青团上海交通大学委员会', '上海交通大学电子信息与电气工程学院', '国家电工电子实验教学示范中心（上海交大）', '上海交通大学电子信息与电气工程学院学生会'],
     organizer: '策划协办方',
     sponsor: '往届合作赞助方',
     supportCompany: '活动支持方',
@@ -125,7 +127,8 @@ export default {
               <p>Student developers could also take this chance to connect with each sponsor’s developers and recruiters, in order to find their right fit for future career. HACK×SJTU will also invite top-notch venture capital investors to be part of the judging committee. Students could potentially benefit from those offerings by taking their projects to the next level. We hope, by the end of HACK×SJTU, students will not only receive many amazing prizes, but mostly importantly have fun, make great friends and turn the craziest idea into reality!</p>`,
 
     signUp: 'Sign Up Now',
-    signUpPrompt: '<p>比赛时间: 2017-05-17 ~ 05-19</p><p>报名时间: 2017-04-17 ~ 05-12</p><p>请您填写下方申请入口中的正式申请表</p>',
+    signTime: '2017-05-17 ~ 05-19',
+    signUpPrompt: '<p>比赛时间</p><p>2017-05-17 ~ 05-19</p><br/><p>报名时间</p><p> 2017-04-17 ~ 05-12</p><br/><p>请您填写下方申请入口中的正式申请表</p>',
 
     schedule: [
       'event-lg|5/17|Friday',
@@ -204,10 +207,13 @@ export default {
       'If you have any other questions, please email us at service@hackx.org.'
     ],
     address: '上海市闵行区东川路800号<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼',
+    simpleAddress: '<br>上海交通大学闵行校区<br>电子信息与电气工程学院4号楼',
 
     rightStatement: 'HACK×SJTU All rights reserved',
     host: 'HOSTS',
-    hosts: ['The Committee of Youth League at Shanghai Jiaotong University', 'School of Electronic, Information and Electrical Engineering(SEIEE) at Shanghai Jiaotong University', 'SEIEE Student Union at Shanghai Jiaotong University'],
+    hosts: ['The Committee of Youth League at Shanghai Jiaotong University', 'School of Electronic, Information and Electrical Engineering(SEIEE) at Shanghai Jiaotong University',
+      'National Electrotechnics and Electronics Experimental Teaching Center',
+      'SEIEE Student Union at Shanghai Jiaotong University'],
     organizer: 'EVENT ORGANIZER',
     sponsor: 'SPONSORS',
     supportCompany: 'SUPPORT',

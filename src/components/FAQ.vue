@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
   .faq {
-    min-height: 100vh;
+    min-height: 110vh;
   }
   .faq-wrapper {
     margin-left: 30px;

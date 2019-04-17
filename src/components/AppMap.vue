@@ -5,7 +5,7 @@
         <p class="prompt" v-html="$t('address')"></p>
       </div>
 
-      <iframe width='560' height='600' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://lbs.amap.com/console/show/map/?0_560_800_121.441456_31.025138&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%20%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%20%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2&=&=&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2'></iframe>
+      <iframe width='100%' height='600' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://lbs.amap.com/console/show/map/?0_560_550_121.441456_31.025138&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%20%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%20%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2&=&=&=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%97%B5%E8%A1%8C%E6%A0%A1%E5%8C%BA%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2'></iframe>
 
     </div>
 
@@ -39,7 +39,7 @@
     position: absolute;
     background-color: rgba(255,255,255,0.6);
     width: 80%;
-    height: 600px;
+    height: 550px;
     top: 0;
     left: 10%;
   }
@@ -48,6 +48,7 @@
     color: #393939;
     position: absolute;
     font-size: 25px;
+    font-weight: bold;
     line-height: 50px;
     bottom: 5px;
     width: 100%;
@@ -55,8 +56,8 @@
 
   .map-mobile {
     width: 100%;
-    min-height: 300px;
-    max-height: 400px;
+    min-height: 550px;
+    max-height: 500px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;

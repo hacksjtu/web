@@ -21,7 +21,8 @@ import CaptionLogo from './CaptionLogo.vue'
 
 export default {
   name: 'entrance',
-  components: { PromptDown, CaptionLogo }
+  components: { PromptDown, CaptionLogo },
+  props: ['isMobile']
 }
 </script>
 
@@ -46,7 +47,11 @@ export default {
   }
   @media screen and (max-width: 600px) {
     .message {
-      margin: auto auto;
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
       font-size: 20px;
     }
   }

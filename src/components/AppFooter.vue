@@ -8,7 +8,7 @@
           <div v-for="(name, ind) in $t('hosts')">
             <!-- img used in v-for should be put directly in /static/img dir -->
             <!-- reference: http://www.jianshu.com/p/f82c5ecbd3a5 -->
-            <img :src="'/static/img/host-' + ind + '.png'">
+            <img :src="'/static/img/host-' + ind + '-new.png'">
             <p>{{ name }}</p>
           </div>
         </div>
@@ -16,14 +16,14 @@
 
       <div class="col-md-6">
         <h1 v-html="$t('organizer')"></h1>
-        <img src="../assets/grapetech.png">
+<!--        <img src="../assets/grapetech.png">-->
         <img src="../assets/hackx.png">
       </div>
     </div>
     <div>
 
     </div>
-    <h1 v-html="$t('sponsor')"></h1>
+    <div style="font-size: 40px;" v-html="$t('sponsor')"></div>
 
     <div>
       <div class="img-flow-horiz img-sp" v-for="sp in sponsors">
@@ -38,18 +38,18 @@
       </div>
     </div>
 
-    <h1 v-html="$t('supportCompany')"></h1>
+<!--    <h1 v-html="$t('supportCompany')"></h1>-->
 
-    <div>
-      <div class="img-flow-horiz" v-for="sp in support">
-        <div v-for="(href, name) in sp">
-          <!-- img used in v-for should be put directly in /static/img dir -->
-          <a :href="href" target="_blank">
-            <img :src="'/static/img/brands/' + name + '.png'">
-          </a>
-        </div>
-      </div>
-    </div>
+<!--    <div>-->
+<!--      <div class="img-flow-horiz" v-for="sp in support">-->
+<!--        <div v-for="(href, name) in sp">-->
+<!--          &lt;!&ndash; img used in v-for should be put directly in /static/img dir &ndash;&gt;-->
+<!--          <a :href="href" target="_blank">-->
+<!--            <img :src="'/static/img/brands/' + name + '.png'">-->
+<!--          </a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
 
     <div class="flex-wrapper">
       <div class="column">
@@ -59,7 +59,7 @@
       </div>
       <div class="column">
         <div>
-          <img id="qrcode" src="../assets/qrcode.png">
+          <img id="qrcode" src="../../static/img/qrcode.png">
         </div>
       </div>
     </div>

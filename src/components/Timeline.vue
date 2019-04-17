@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="timeline-wrap">
     <div class="title"> {{ $t('views')[2] }} </div>
 
     <div class="schedule-wrapper">
@@ -55,11 +55,14 @@ export default {
 </script>
 
 <style scoped>
-  .title {
-    font-size: 30px;
-    padding-top: 70px;
-    margin-bottom: 70px;
+  .timeline-wrap{
+    max-width: 1300px;
+    margin: 0 auto;
   }
+  *, ::after, ::before{
+    box-sizing: unset;
+  }
+
   .time-span {
     height: 30px;
     width: 3px;

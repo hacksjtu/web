@@ -4,6 +4,11 @@
 <!--      <img class="left mobile-hidden" src="../assets/prompt-h.png">-->
 <!--      <img class="right mobile-hidden" src="../assets/prompt-h.png">-->
       <caption-logo class="caption-logo center-block"></caption-logo>
+      <span class="text-center" style="font-size: 20px;">
+          {{$t('signTime')}}
+      </span>
+      <span class="text-center" style="font-size: 20px;" v-html="$t('simpleAddress')">
+      </span>
     </div>
 
     <div class="navbar center-block mobile-hidden">

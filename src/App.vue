@@ -17,7 +17,7 @@
     </banner>
 
     <about-us class="js-scroll-anchor" :isMobile="isMobile"></about-us>
-    <entrance class="js-scroll-anchor"></entrance>
+    <entrance class="js-scroll-anchor" :isMobile="isMobile"></entrance>
     <timeline class="js-scroll-anchor" :scheduleStrings="$t('schedule')"></timeline>
     <faq class="js-scroll-anchor"></faq>
     <app-map :isMobile="isMobile"></app-map>
